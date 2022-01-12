@@ -78,6 +78,7 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
+    background-size: 100%!important;
 }
 
 .bloc-bg-texture::before {
@@ -818,11 +819,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
